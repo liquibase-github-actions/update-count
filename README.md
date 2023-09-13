@@ -6,7 +6,7 @@ Deploy the specified number of changes from the changelog file
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/update-count@v4.23.1
+- uses: liquibase-github-actions/update-count@v4.23.2
   with:
     # The root changelog
     # string
@@ -95,7 +95,7 @@ The liquibase update count action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/update-count@v4.23.1
+  - uses: liquibase-github-actions/update-count@v4.23.2
     with:
       changelogFile: ""
       count: ""
